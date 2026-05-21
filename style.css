@@ -1,1 +1,212 @@
-/* Add you CSS here */
+/* Reset Default Settings */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+
+body {
+    background-color: #050816;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 40px;
+
+    background-color: #0b1026;
+
+    position: sticky;
+    top: 0;
+}
+
+nav h2 {
+    color: #00e5ff;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: #8c52ff;
+}
+
+/* Hero Section */
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+/* Profile Picture */
+
+.profile-pic {
+    width: 180px;
+    height: 180px;
+
+    border-radius: 50%;
+
+    border: 4px solid #00e5ff;
+
+    margin-bottom: 20px;
+}
+
+/* Main Title */
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+
+    color: #00e5ff;
+}
+
+/* Hero Text */
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Button */
+
+.button {
+    display: inline-block;
+
+    padding: 12px 25px;
+
+    background-color: #8c52ff;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 30px;
+}
+
+/* Hover Effect */
+
+.button:hover {
+    background-color: #00e5ff;
+}
+
+/* Sections */
+
+.about,
+.interests,
+.projects {
+    padding: 80px 40px;
+    text-align: center;
+}
+
+/* Section Titles */
+
+.about h2,
+.interests h2,
+.projects h2,
+footer h2 {
+    margin-bottom: 30px;
+    color: #00e5ff;
+}
+
+/* Interest Cards */
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 20px;
+}
+
+/* Individual Card */
+
+.card {
+    background-color: #111936;
+
+    padding: 25px;
+
+    width: 220px;
+
+    border-radius: 15px;
+
+    border: 1px solid #8c52ff;
+}
+
+/* Card Hover */
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Projects */
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 20px;
+}
+
+/* Project Boxes */
+
+.project-box {
+    width: 250px;
+    height: 150px;
+
+    background-color: #111936;
+
+    border: 1px solid #00e5ff;
+
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+
+    padding: 40px;
+
+    background-color: #0b1026;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .hero h1 {
+        font-size: 35px;
+    }
+
+}/* Add you CSS here */
