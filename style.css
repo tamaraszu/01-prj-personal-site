@@ -123,8 +123,9 @@ nav a:hover {
 .interests h2,
 .projects h2,
 footer h2 {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     color: #00e5ff;
+    font-size: 33px
 }
 
 /* Interest Cards */
